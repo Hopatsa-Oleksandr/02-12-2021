@@ -1,18 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0;
   font-family: "Manrope", sans-serif;
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  height: 73px;
+  border-bottom: 1px solid #e5e9f2;
 }
 
-.container {
+.header-container {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
 }
 
 .log {
+  margin-right: 40px;
 }
 
 .nav {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  line-height: 1.43;
+  color: #18191f;
+}
+
+.nav-link {
+  color: #18191f;
+  text-decoration: none;
 }
 
 .appstore {
+  margin-left: auto;
 }
